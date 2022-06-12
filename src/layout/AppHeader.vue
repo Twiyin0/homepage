@@ -140,14 +140,14 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="https://github.com/Twiyin0"
+                    <a class="nav-link nav-link-icon" href="https://github.com/Twiyin0/Vue-homePage"
                        target="_blank" rel="noopener" data-toggle="tooltip" title="来Github点歌star嘛">
                         <i class="fa fa-github"></i>
                         <span class="nav-link-inner--text d-lg-none">Github</span>
                     </a>
                 </li>
                 <li class="nav-item d-none d-lg-block ml-lg-4">
-                    <a href="https://www.creative-tim.com/product/vue-argon-design-system" target="_blank" rel="noopener"
+                    <a href="https://github.com/Twiyin0/Vue-homePage" target="_blank" rel="noopener"
                        class="btn btn-neutral btn-icon">
                 <span class="btn-inner--icon">
                   <i class="fa fa-cloud-download mr-2"></i>
