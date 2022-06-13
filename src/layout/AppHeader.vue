@@ -147,12 +147,12 @@
                     </a>
                 </li>
                 <li class="nav-item d-none d-lg-block ml-lg-4">
-                    <a href="https://github.com/Twiyin0/Vue-homePage" target="_blank" rel="noopener"
+                    <a href="https://github.com/Twiyin0/Vue-homePage/releases/download/vue/dist.zip" target="_blank" rel="noopener"
                        class="btn btn-neutral btn-icon">
                 <span class="btn-inner--icon">
                   <i class="fa fa-cloud-download mr-2"></i>
                 </span>
-                        <span class="nav-link-inner--text">下载此项目</span>
+                        <span class="nav-link-inner--text">下载HTML</span>
                     </a>
                 </li>
             </ul>
