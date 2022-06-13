@@ -27,7 +27,7 @@
                         </p>
                         <div class="btn-wrapper">
                             <base-button tag="a"
-                                         href="https://demos.creative-tim.com/vue-argon-design-system/documentation"
+                                         href="https://github.com/Twiyin0/Vue-homePage"
                                          class="mb-3 mb-sm-0"
                                          type="info"
                                          icon="fa fa-code">
