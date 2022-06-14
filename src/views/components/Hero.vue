@@ -22,9 +22,12 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-7 text-center pt-lg">
                         <img src="img/logo/favicon.png" style="width: 200px;" class="img-fluid">
-                        <p class="lead text-white mt-4 mb-5">暮 色 音 铃 T w i y i n 0 <br>
-                            -[-无聊的时候甚至会敲代码-]-
-                        </p>
+                        <!-- 
+                            颜色渐变效果style
+                            background: linear-gradient(to right,#ffffff, #b1ca9e, #9bd0f0); -webkit-background-clip: text;color: transparent;
+                        -->
+                        <p class="description" style="color: white; font-size: 30px">暮 色 音 铃 T w i y i n 0 </p>
+                        <p class="description" style="color: white; font-size: 20px">-[-无聊的时候甚至会敲代码-]-</p>
                         <div class="btn-wrapper">
                             <base-button tag="a"
                                          href="https://github.com/Twiyin0/Vue-homePage"

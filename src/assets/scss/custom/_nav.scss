@@ -3,6 +3,7 @@
 
     &:hover {
         color: theme-color("primary");
+        background-color: rgba(155,167,175,0.4);
     }
 
     i:not(.fa) {
@@ -29,13 +30,14 @@
 
         &:hover {
         	color: $nav-pills-link-hover-color;
+            background-color: #73d6e8;
         }
     }
  
     .nav-link.active,
     .show > .nav-link {
         color: $nav-pills-link-active-color;
-        background-color: $nav-pills-link-active-bg;
+        background-color: #65b1bf;//$nav-pills-link-active-bg;
     }
 
     @include media-breakpoint-down(xs) {

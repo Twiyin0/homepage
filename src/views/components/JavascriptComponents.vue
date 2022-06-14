@@ -1,7 +1,7 @@
 <template>
     <section class="section section-components">
         <div class="container">
-            <h3 class="h4 text-success font-weight-bold mb-4">Tabs</h3>
+            <h3 class="h4 text-success font-weight-bold mb-4">关于我<br>About Me</h3>
             <tabs-section></tabs-section>
             <progress-section></progress-section>
             <div class="row row-grid justify-content-between">

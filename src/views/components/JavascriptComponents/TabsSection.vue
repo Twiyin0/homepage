@@ -1,10 +1,10 @@
 <template>
     <div class="row justify-content-center">
         <div class="col-lg-6">
-            <!-- Tabs with icons -->
+            <!-- Tabs with icons 
             <div class="mb-3">
                 <small class="text-uppercase font-weight-bold">With icons</small>
-            </div>
+            </div>-->
             <tabs fill class="flex-column flex-md-row">
                 <card shadow slot-scope="{activeTabIndex}">
                     <tab-pane key="tab1">
@@ -43,8 +43,17 @@
                 </card>
             </tabs>
         </div>
+
+        <!-- 进度条样式 -->
+        <div class="col-lg-5">
+                <h3 class="h4 text-success font-weight-bold mb-4">Skill Tab</h3>
+                <base-progress :value="40" label="Task completed"></base-progress>
+                <base-progress type="primary" :value="60" label="Task completed"></base-progress>
+        </div>
+
+        <!--
         <div class="col-lg-6 mt-5 mt-lg-0">
-            <!-- Menu -->
+             Menu 
             <div class="mb-3">
                 <small class="text-uppercase font-weight-bold">With text</small>
             </div>
@@ -73,7 +82,9 @@
                     </tab-pane>
                 </card>
             </tabs>
+            
         </div>
+        -->
     </div>
 </template>
 <script>
