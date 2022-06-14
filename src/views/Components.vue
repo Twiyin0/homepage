@@ -1,6 +1,7 @@
 <template>
     <div>
         <hero></hero>
+        <javascript-components></javascript-components>
         <!--
         <basic-elements></basic-elements>
         <inputs></inputs>

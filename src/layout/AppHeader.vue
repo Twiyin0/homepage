@@ -34,15 +34,15 @@
                                 <p class="description d-none d-md-inline-block mb-0">这是我的个人博客,记录我的点点滴滴</p>
                             </div>
                         </a>
-                        <a href="https://twiyin0.cn" target="_blank"
+                        <a href="https://img.twiyin0.cn" target="_blank"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
                                 <!--i class="ni ni-spaceship"></i-->
                                 <img src="img/icons/logo/icon-72x72.png" style="width: 52px">
                             </div>
                             <div class="media-body ml-3">
-                                <h6 class="heading text-primary mb-md-1">个人主页</h6>
-                                <p class="description d-none d-md-inline-block mb-0">这是我的一份个人主页</p>
+                                <h6 class="heading text-primary mb-md-1">yin0图床</h6>
+                                <p class="description d-none d-md-inline-block mb-0">lskyPro兰空图床~存储好多好多图片</p>
                             </div>
                         </a>
                         <a href="https://music.twiyin0.cn" target="_blank"
