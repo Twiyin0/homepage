@@ -1,10 +1,18 @@
 <template>
     <section class="section section-components">
         <div class="container">
-            <h3 class="h4 text-success font-weight-bold mb-4">关于我<br>About Me</h3>
+            <base-alert type="info" icon="ni ni-bell-55" dismissible>
+                <span slot="text"><strong>Tip!!</strong> 下面是关于我的一些信息~</span>
+            </base-alert>
+            
+            <!--h3 class="h4 text-success font-weight-bold mb-4">关于我<br>About Me</h3-->
+            
             <tabs-section></tabs-section>
-            <progress-section></progress-section>
+
+            <!--
             <div class="row row-grid justify-content-between">
+                
+                <progress-section></progress-section>
                 <div class="col-lg-5">
                     <h3 class="h4 text-success font-weight-bold mb-5">Navigation Pills</h3>
                     <tabs :fill="false" circle>
@@ -20,6 +28,7 @@
                         </tab-pane>
                     </tabs>
                 </div>
+                
                 <div class="col-lg-5">
                     <h3 class="h4 text-success font-weight-bold mb-5">Labels</h3>
                     <badge type="primary" class="text-uppercase">Primary</badge>
@@ -28,7 +37,11 @@
                     <badge type="warning" class="text-uppercase">Warning</badge>
                     <badge type="info" class="text-uppercase">Info</badge>
                 </div>
+                
             </div>
+            -->
+
+            <!--
             <h3 class="mt-lg mb-4">
                 <span>Alerts</span>
             </h3>
@@ -47,9 +60,14 @@
             <base-alert type="danger" icon="ni ni-support-16" dismissible>
                 <span slot="text"><strong>Danger!</strong> This is an error alert—check it out!</span>
             </base-alert>
+            -->
 
+            <!-- H1 到 H6
             <typography></typography>
+            -->
+
             <!-- Images -->
+            <!--
             <h2 class="mt-lg mb-5">
                 <span>Images</span>
             </h2>
@@ -58,14 +76,19 @@
                 <span>Javascript Components</span>
             </h2>
             <h3 class="h4 text-success font-weight-bold mb-4">Modals</h3>
-            <!-- Modals -->
+            -->
+            <!-- Modals 
             <modals></modals>
-             Datepicker
+            -->
+            <!--
             <h3 class="h4 text-success font-weight-bold mt-md mb-4">Datepicker</h3>
             <date-pickers></date-pickers>
-            <!-- Tooltips and Popovers -->
+            -->
+            <!-- Tooltips and Popovers
             <h3 class="h4 text-success font-weight-bold mt-md mb-4">Tooltips &amp; Popovers</h3>
+
             <tooltips></tooltips>
+            -->
         </div>
     </section>
 </template>

@@ -37,12 +37,12 @@
                                 源码
                             </base-button>
                             <base-button tag="a"
-                                         href="https://iin0.cn/"
+                                         href="https://blog.twiyin0.cn"
                                          class="mb-3 mb-sm-0"
                                          type="white"
                                          >
                                 <object width="14px" data="/img/svg/account-filling.svg" type="image/svg+xml"></object>
-                                个人主页
+                                个人博客
                             </base-button>
                         </div>
                     </div>

@@ -121,7 +121,7 @@
                 <li class="nav-item">
                     <a class="nav-link nav-link-icon" href="mailto:twiyin0@outlook.com" target="_blank" rel="noopener"
                        data-toggle="tooltip" title="我的outlook邮箱">
-                        <i class="fa fa-mail-forward"></i>
+                        <i class="ni ni-email-83"></i>
                         <span class="nav-link-inner--text d-lg-none">outlook</span>
                     </a>
                 </li>
@@ -141,7 +141,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-link-icon" href="https://github.com/Twiyin0/Vue-homePage"
-                       target="_blank" rel="noopener" data-toggle="tooltip" title="来Github点歌star嘛">
+                       target="_blank" rel="noopener" data-toggle="tooltip" title="来Github点个star嘛">
                         <i class="fa fa-github"></i>
                         <span class="nav-link-inner--text d-lg-none">Github</span>
                     </a>

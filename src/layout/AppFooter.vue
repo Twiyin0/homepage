@@ -35,7 +35,7 @@
                     <a target="_blank" rel="noopener" href="mailto:twiyin0@outlook.com"
                        class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg" data-toggle="tooltip"
                        data-original-title="Like me with outlook">
-                        <i class="fa fa-mail-forward"></i>
+                        <i class="ni ni-email-83"></i>
                     </a>
                     <a target="_blank" rel="noopener" href="http://wpa.qq.com/msgrd?v=3&uin=1204012590&site=qq&menu=yes"
                        class="btn btn-neutral btn-icon-only btn-dribbble btn-lg btn-round" data-toggle="tooltip"

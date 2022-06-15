@@ -6,10 +6,13 @@
                 <small class="text-uppercase font-weight-bold">With icons</small>
             </div>-->
             <tabs fill class="flex-column flex-md-row">
+                <!-- old {activeTabIndex}未使用问题
                 <card shadow slot-scope="{activeTabIndex}">
+                -->
+                <card shadow slot-scope="">
                     <tab-pane key="tab1">
                         <template slot="title">
-                            <i class="ni ni-cloud-upload-96 mr-2"></i>Home
+                            <i class="ni ni-satisfied mr-2"></i>个人介绍
                         </template>
 
                         <p class="description">Raw denim you probably haven't heard of them jean shorts
@@ -22,7 +25,7 @@
 
                     <tab-pane key="tab2">
                         <template slot="title">
-                            <i class="ni ni-bell-55 mr-2"></i>Profile
+                            <i class="ni ni-favourite-28 mr-2"></i>兴趣爱好
                         </template>
 
                         <p class="description">Cosby sweater eu banh mi, qui irure terry richardson ex
@@ -32,7 +35,7 @@
 
                     <tab-pane key="tab3">
                         <template slot="title">
-                            <i class="ni ni-calendar-grid-58 mr-2"></i>Messages
+                            <i class="ni ni-calendar-grid-58 mr-2"></i>时间线
                         </template>
 
                         <p class="description">Raw denim you probably haven't heard of them jean shorts
@@ -46,9 +49,15 @@
 
         <!-- 进度条样式 -->
         <div class="col-lg-5">
-                <h3 class="h4 text-success font-weight-bold mb-4">Skill Tab</h3>
-                <base-progress :value="40" label="Task completed"></base-progress>
-                <base-progress type="primary" :value="60" label="Task completed"></base-progress>
+                <p style="font-size: 20px;
+                          background: linear-gradient(to right, #32bf, #3e15);
+                          -webkit-background-clip: text;
+                          color: transparent;
+                          width: 90px;
+                "><br><strong>技能列表</strong></p>
+                <base-progress type="info" :value="95" label="摆烂" v-b-tooltip.hover.top title="总之就是摆！"></base-progress>
+                <base-progress type="primary" :value="50" label="C/C++" v-b-tooltip.hover.top title="专业所需"></base-progress>
+                <base-progress type="warning" :value="25" label="前端" v-b-tooltip.hover.top title="兴趣爱好"></base-progress>
         </div>
 
         <!--
