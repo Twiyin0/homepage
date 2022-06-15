@@ -55,6 +55,9 @@
                     <div class="copyright">
                         <p> &copy; {{year}} Created by <a href="https://iin0.cn" target="_blank" rel="noopener">Twiyin0</a>. Built with <a href="https://www.creative-tim.com/product/vue-argon-design-system" target="_blank" rel="noopener">Argon</a></p>
                     </div>
+                    <div class="beian">
+                        <p>备案号 <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">沪ICP备2022002870号-15</a></p>
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <ul class="nav nav-footer justify-content-end">
