@@ -3,7 +3,8 @@
 
 ## 先决条件
 [nodejs](https://nodejs.org/)  
-推荐室使用`yarn`包管理器
+需要node v14.19以下，sass^4.11.0不支持node v14.19以上版本  
+推荐使用`yarn`包管理器
 
 ## 快速开始
 如果您没有yarn包管理器
@@ -11,8 +12,6 @@
 ```sh
 npm install yarn -g
 ```
-
-> yarn补全依赖受网络影响可能会失败，因此在git库内增加了依赖压缩包，解压后即可.
 
 ### 补全依赖
 yarn  
