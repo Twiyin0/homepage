@@ -35,4 +35,17 @@ npm
 npm run serve
 ```
 
+### 编译成静态文件
+yarn
+```sh
+yarn build
+```
+
+npm
+```sh
+npm run build
+```
+
+* >> 编译后的文件在/dist目录
+
 ## 开源协议: [MIT](https://github.com/Twiyin0/Vue-homePage/blob/main/LICENSE)
