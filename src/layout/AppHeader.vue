@@ -2,7 +2,7 @@
     <header class="header-global">
         <base-nav class="navbar-main" transparent type="" effect="light" expand>
             <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
-                <img src="img/logo/logo-16x9.png" alt="logo">
+                <img src="img/logo/logo1_16x9.png" alt="logo">
             </router-link>
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
@@ -23,7 +23,7 @@
                         <span class="nav-link-inner--text">我的站点</span>
                     </a>
                     <div class="dropdown-menu-inner">
-                        <a href="https://blog.twiyin0.cn" target="_blank"
+                        <a href="https://blog.iin0.cn" target="_blank"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
                                 <!--i class="ni ni-spaceship"></i-->
@@ -45,7 +45,7 @@
                                 <p class="description d-none d-md-inline-block mb-0">lskyPro兰空图床~存储好多好多图片</p>
                             </div>
                         </a>
-                        <a href="https://music.iin0.cn" target="_blank"
+                        <a href="http://m.iin0.cn" target="_blank"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
                                 <!-- i class="ni ni-ui-04"></i -->
@@ -53,7 +53,7 @@
                             </div>
                             <div class="media-body ml-3">
                                 <h5 class="heading text-warning mb-md-1">koel音乐</h5>
-                                <p class="description d-none d-md-inline-block mb-0">在逛vue的时候发现有朴素简又洁界面的音乐网站</p>
+                                <p class="description d-none d-md-inline-block mb-0">当你撑不下去的时候~不妨静下来听听歌~</p>
                             </div>
                         </a>
                         <a href="https://url.iin0.cn" target="_blank"
@@ -65,6 +65,17 @@
                             <div class="media-body ml-3">
                                 <h5 class="heading text-warning mb-md-1">短链接</h5>
                                 <p class="description d-none d-md-inline-block mb-0">可以把长长的链接缩短哦~</p>
+                            </div>
+                        </a>
+                        <a href="https://paste.iin0.cn" target="_blank"
+                           class="media d-flex align-items-center">
+                           <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
+                            <!--i class="ni ni-spaceship"></i-->
+                            <img src="img/icons/logo/icon-72x72.png" style="width: 52px">
+                            </div>
+                            <div class="media-body ml-3">
+                                <h5 class="heading text-warning mb-md-1">剪贴板</h5>
+                                <p class="description d-none d-md-inline-block mb-0">有什么想和大家一起分享的嘛~</p>
                             </div>
                         </a>
                     </div>
@@ -89,7 +100,8 @@
                             </div>
                             <div class="media-body ml-3">
                                 <h5 class="heading text-warning mb-md-1">师叔的小窝</h5>
-                                <p class="description d-none d-md-inline-block mb-0">vlssu公益服服主的博客</p>
+                                <p class="description d-none d-md-inline-block mb-0">一个终极咸鱼，啥也不会的CV工程师
+                                    （你觉得我信吗）</p>
                             </div>
                         </a>
                         <a href="https://www.creative-tim.com/" target="_blank"
@@ -147,12 +159,12 @@
                     </a>
                 </li>
                 <li class="nav-item d-none d-lg-block ml-lg-4">
-                    <a href="https://github.com/Twiyin0/Vue-homePage/releases/download/vue/dist.zip" target="_blank" rel="noopener"
+                    <a href="#/profile" rel="noopener"
                        class="btn btn-neutral btn-icon">
-                <span class="btn-inner--icon">
-                  <i class="fa fa-cloud-download mr-2"></i>
-                </span>
-                        <span class="nav-link-inner--text">下载HTML</span>
+                        <span class="btn-inner--icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16" class="bi bi-asterisk"><path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1z"></path></svg>
+                        </span>
+                        <span class="nav-link-inner--text">光翼展开~</span>
                     </a>
                 </li>
             </ul>

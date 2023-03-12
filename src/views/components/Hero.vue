@@ -21,7 +21,7 @@
             <div class="col px-0">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-7 text-center pt-lg">
-                        <img src="img/logo/favicon.png" style="width: 200px;" class="img-fluid">
+                        <img src="img/logo/head_c.png" style="width: 200px;" class="img-fluid">
                         <!-- 
                             颜色渐变效果style
                             background: linear-gradient(to right,#ffffff, #b1ca9e, #9bd0f0); -webkit-background-clip: text;color: transparent;
@@ -37,7 +37,7 @@
                                 源码
                             </base-button>
                             <base-button tag="a"
-                                         href="https://blog.twiyin0.cn"
+                                         href="https://blog.iin0.cn"
                                          class="mb-3 mb-sm-0"
                                          type="white"
                                          >
@@ -50,12 +50,12 @@
                 <div class="row align-items-center justify-content-around stars-and-coded">
                     <div class="col-sm-4">
                         <span class="text-white alpha-7 ml-3">点个star再走罢</span>
-                        <a href="https://github.com/Twiyin0" target="_blank" title="Support us on Github">
+                        <a href="https://github.com/Twiyin0/Vue-homePage" target="_blank" title="Support us on Github">
                             <img src="img/brand/github-white-slim.png" style="height: 22px; margin-top: -3px">
                         </a>
                     </div>
                     <div class="col-sm-4 mt-4 mt-sm-0 text-right">
-                        <a href="https://www.creative-tim.com" target="_blank" title="Creative Tim - Premium Bootstrap Themes and Templates">
+                        <a href="https://github.com/Twiyin0/Vue-homePage" target="_blank" title="Creative Tim - Premium Bootstrap Themes and Templates">
                             <img src="img/brand/github-white-slim.png" style="height: 22px; margin-top: -3px">
                         </a>
                         <span class="text-white alpha-7">&nbsp;点个star再走罢</span>

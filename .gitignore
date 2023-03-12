@@ -3,7 +3,6 @@ node_modules
 /dist
 /dist.zip
 /yarn.lock
-/yarn_modules.zip
 
 # local env files
 .env.local
