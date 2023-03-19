@@ -80,8 +80,8 @@
                           background: linear-gradient(to right, #32bf, #3e15);
                           -webkit-background-clip: text;
                           color: transparent;
-                          width: 90px;
-                "><br><strong>技能列表</strong></p>
+                          width: 120px;
+                "><br><strong style="font-size: 30px;">技能列表</strong></p>
                 <base-progress type="info" :value="95" label="摆烂" v-b-tooltip.hover.top title="总之就是摆！"></base-progress>
                 <base-progress type="primary" :value="50" label="C/C++" v-b-tooltip.hover.top title="专业所需"></base-progress>
                 <base-progress type="warning" :value="25" label="前端" v-b-tooltip.hover.top title="兴趣爱好"></base-progress>
@@ -134,4 +134,7 @@ export default {
 };
 </script>
 <style>
+    .col-lg-5 {
+        font-family: "Font-ninininglu", sans-serif;
+    }
 </style>

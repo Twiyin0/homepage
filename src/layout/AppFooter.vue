@@ -88,4 +88,7 @@ export default {
 };
 </script>
 <style>
+    .col-lg-6 {
+        font-family: "Font-ninininglu", sans-serif;
+    }
 </style>

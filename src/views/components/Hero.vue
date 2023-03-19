@@ -26,8 +26,8 @@
                             颜色渐变效果style
                             background: linear-gradient(to right,#ffffff, #b1ca9e, #9bd0f0); -webkit-background-clip: text;color: transparent;
                         -->
-                        <p class="description" style="color: white; font-size: 30px">暮 色 音 铃 T w i y i n 0 </p>
-                        <p class="description" style="color: white; font-size: 20px">-[-无聊的时候甚至会敲代码-]-</p>
+                        <p class="description" style="color: white; font-size: 36px">暮 色 音 铃 T w i y i n 0 </p>
+                        <p class="description" style="color: white; font-size: 25px">-[-无聊的时候甚至会敲代码-]-</p>
                         <div class="btn-wrapper">
                             <base-button tag="a"
                                          href="https://github.com/Twiyin0/Vue-homePage"
@@ -49,7 +49,7 @@
                 </div>
                 <div class="row align-items-center justify-content-around stars-and-coded">
                     <div class="col-sm-4">
-                        <span class="text-white alpha-7 ml-3">点个star再走罢</span>
+                        <span class="text-white alpha-7 ml-3" style="font-size: 25px;">点个star再走罢</span>
                         <a href="https://github.com/Twiyin0/Vue-homePage" target="_blank" title="Support us on Github">
                             <img src="img/brand/github-white-slim.png" style="height: 22px; margin-top: -3px">
                         </a>
@@ -58,7 +58,7 @@
                         <a href="https://github.com/Twiyin0/Vue-homePage" target="_blank" title="Creative Tim - Premium Bootstrap Themes and Templates">
                             <img src="img/brand/github-white-slim.png" style="height: 22px; margin-top: -3px">
                         </a>
-                        <span class="text-white alpha-7">&nbsp;点个star再走罢</span>
+                        <span class="text-white alpha-7" style="font-size: 25px;">&nbsp;点个star再走罢</span>
                     </div>
                 </div>
             </div>

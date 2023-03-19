@@ -20,3 +20,8 @@ export default {
   }
 };
 </script>
+<style>
+    #app {
+        font-family: "Font-ninininglu", sans-serif;
+    }
+</style>

@@ -94,4 +94,7 @@ export default {
 };
 </script>
 <style>
+  .container {
+        font-family: "Font-ninininglu", sans-serif;
+    }
 </style>
