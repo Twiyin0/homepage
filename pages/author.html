@@ -18,6 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="76x76" href="../assets/favicon.png">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
   <title>
     暮色音铃Twiyin0
   </title>
@@ -51,13 +52,13 @@
         onblur="this.style.color='white'">
           <img src="../assets/favicon.ico" style="width: 36px;"/> Twiyin0
         </a>
-        <!-- <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon mt-2">
             <span class="navbar-toggler-bar bar1"></span>
             <span class="navbar-toggler-bar bar2"></span>
             <span class="navbar-toggler-bar bar3"></span>
           </span>
-        </button> -->
+        </button>
         <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0 w-100" id="navigation">
           <ul class="navbar-nav navbar-nav-hover ms-auto">
             <li class="nav-item dropdown dropdown-hover mx-2">
@@ -100,30 +101,44 @@
               </a>
               </div>
     
-              <!-- <div class="d-lg-none">
+              <div class="d-lg-none">
                 <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
-                  Landing Pages
+                  个人网站
                 </h6>
-    
-                <a href="./pages/about-us.html" class="dropdown-item border-radius-md">
-                  <span>About Us</span>
+                <a href="./pages/author.html" target="_blank" class="dropdown-item border-radius-md">
+                  <span>暮色音铃Twiyin0简介页</span>
                 </a>
-                <a href="./pages/contact-us.html" class="dropdown-item border-radius-md">
-                  <span>Contact Us</span>
+                <a href="https://blog.iin0.cn" target="_blank" class="dropdown-item border-radius-md">
+                  <span>音铃的博客</span>
                 </a>
-                <a href="./pages/author.html" class="dropdown-item border-radius-md">
-                  <span>Author</span>
+                <a href="https://img.iin0.cn" target="_blank" class="dropdown-item border-radius-md">
+                  <span>音铃图床Yin0Img</span>
                 </a>
-    
+                <a href="https://url.iin0.cn" target="_blank" class="dropdown-item border-radius-md">
+                  <span>音铃短链Yin0Url</span>
+                </a>
+                <a href="https://paste.iin0.cn" target="_blank" class="dropdown-item border-radius-md">
+                  <span>粘贴分享Yin0paste</span>
+                </a>
+                <a href="https://dw.in0.re" target="_blank" class="dropdown-item border-radius-md">
+                  <span>在线流程图绘制</span>
+                </a>
+                <a href="https://g.in0.re" target="_blank" class="dropdown-item border-radius-md">
+                  <span>github加速站</span>
+                </a>
                 <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1 mt-3">
-                  Account
+                  友情链接
                 </h6>
-                <a href="./pages/sign-in.html" class="dropdown-item border-radius-md">
-                  <span>Sign In</span>
+                <a href="https://blog.vlssu.com" target="_blank" class="dropdown-item border-radius-md">
+                  <span>师叔的小窝</span>
                 </a>
-    
-              </div> -->
-    
+                <a href="https://docs.in0.re" target="_blank" class="dropdown-item border-radius-md">
+                  <span>沃玛岛服务器</span>
+                </a>
+                <a href="https://github.com/creativetimofficial/material-kit" target="_blank" class="dropdown-item border-radius-md">
+                  <span>本站原源码链接</span>
+                </a>
+              </div>
               </div>
             </li>
     
@@ -416,34 +431,29 @@
       </ul>
     </div>
     
-    <!-- <div class="row d-lg-none">
+    <div class="row d-lg-none">
       <div class="col-md-12 g-0">
-        <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
-          <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Getting Started</h6>
-          <span class="text-sm">All about overview, quick start, license and contents</span>
+        <a class="dropdown-item py-2 ps-3 border-radius-md" href="https://space.bilibili.com/22358916">
+          <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">b站(Bilibili)主页</h6>
+          <span class="text-sm">反斜杆铃(\0)，一只既在躲避现实又在逃离虚拟不知何去何从的字符串结束符罢了</span>
         </a>
     
-        <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
-          <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Foundation</h6>
-          <span class="text-sm">See our colors, icons and typography</span>
+        <a class="dropdown-item py-2 ps-3 border-radius-md" href="https://qm.qq.com/q/Bny91Mv5fy">
+          <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">QQ</h6>
+          <span class="text-sm">可以通过QQ联系我</span>
         </a>
     
-        <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
-          <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Components</h6>
-          <span class="text-sm">Explore our collection of fully designed components</span>
+        <a class="dropdown-item py-2 ps-3 border-radius-md" href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=qyYs5Wq-nng4FPVwmO_ba0FXuKqeQqBG&authKey=vsbVrZPyW5jQ5RRUFh5zziR3UuzBy4HYbTYTaK%2FlT1a%2Bt98JcrhRKXyBnSPOW0h5&noverify=0&group_code=73735276">
+          <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">QQ群</h6>
+          <span class="text-sm">可以加入QQ群一起玩儿哦~</span>
         </a>
     
-        <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
-          <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Plugins</h6>
-          <span class="text-sm">Check how you can integrate our plugins</span>
-        </a>
-    
-        <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
-          <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Utility Classes</h6>
-          <span class="text-sm">For those who want flexibility, use our utility classes</span>
+        <a class="dropdown-item py-2 ps-3 border-radius-md" href="https://afdian.net/a/twiyin0">
+          <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">爱发电</h6>
+          <span class="text-sm">运维mc服务器与自己的个人网站，可以的话为爱发电哦~</span>
         </a>
       </div>
-    </div> -->
+    </div>
     
               </ul>
             </li>
@@ -465,7 +475,7 @@
   <!-- End Navbar -->
   <!-- -------- START HEADER 4 w/ search book a ticket form ------- -->
   <header>
-    <div class="page-header min-height-400" style="background-image: url('../assets/img/city-profile.jpg');" loading="lazy">
+    <div class="page-header min-height-400" style="background-image: url('https://api.zroxp.cn/img/acc?type=webp');" loading="lazy">
       <span class="mask bg-gradient-dark opacity-8"></span>
     </div>
   </header>
@@ -477,37 +487,34 @@
         <div class="row">
           <div class="col-12 mx-auto">
             <div class="mt-n8 mt-md-n9 text-center">
-              <img class="avatar avatar-xxl shadow-xl position-relative z-index-2" src="../assets/img/bruce-mars.jpg" alt="bruce" loading="lazy">
+              <img class="avatar avatar-xxl shadow-xl position-relative z-index-2" src="http://q1.qlogo.cn/g?b=qq&nk=1204012590&s=640" alt="author" loading="lazy">
             </div>
             <div class="row py-5">
               <div class="col-lg-7 col-md-7 z-index-2 position-relative px-md-2 px-sm-5 mx-auto">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                  <h3 class="mb-0">Michael Roven</h3>
-                  <div class="d-block">
-                    <button type="button" class="btn btn-sm btn-outline-info text-nowrap mb-0">Follow</button>
+                  <h3 class="mb-0">暮色音铃Twiyin0</h3>
+                  <div class="d-block" id="vuebtn">
+                    <button type="button" class="btn btn-sm btn-outline-info text-nowrap mb-0" @click="goToBlog">访问博客</button>
                   </div>
                 </div>
                 <div class="row mb-4">
                   <div class="col-auto">
-                    <span class="h6">323</span>
-                    <span>Posts</span>
+                    <span class="h6">23</span>
+                    <span>博客</span>
                   </div>
                   <div class="col-auto">
-                    <span class="h6">3.5k</span>
-                    <span>Followers</span>
+                    <span class="h6">3.8k</span>
+                    <span>浏览量</span>
                   </div>
                   <div class="col-auto">
-                    <span class="h6">260</span>
-                    <span>Following</span>
+                    <span class="h6">0</span>
+                    <span>power</span>
                   </div>
                 </div>
                 <p class="text-lg mb-0">
-                  Decisions: If you can’t decide, the answer is no.
-                  If two equally difficult paths, choose the one more
-                  painful in the short term (pain avoidance is creating
-                  an illusion of equality). Choose the path that leaves
-                  you more equanimous. <br><a href="javascript:;" class="text-info icon-move-right">More about me
-                    <i class="fas fa-arrow-right text-sm ms-1"></i>
+                  <strong>格言: </strong><br>作为一名什么都会一点的咸鱼，当然选择摆烂啦！<br/>我觉得这个世界只要吃好穿好，快乐就好，是最重要的！否则一切都是徒劳！<br/>当然人难免会遇到麻烦和挫折，这些摆烂就好，摆摆就过去了！过不去就算了（）<br/>人生只是游戏，别太认真了，容易上头（）<br/>
+                  <strong>爱好: </strong>摆烂，摸鱼，偶尔敲敲代码<br/>
+                  <strong>标签: </strong>咸鱼，死宅，二次元
                   </a>
                 </p>
               </div>
@@ -522,7 +529,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <h3 class="mb-5">Check my latest blogposts</h3>
+            <h3 class="mb-5">精选文章</h3>
           </div>
         </div>
         <div class="row">
@@ -530,18 +537,17 @@
             <div class="card card-plain">
               <div class="card-header p-0 position-relative">
                 <a class="d-block blur-shadow-image">
-                  <img src="../assets/img/examples/testimonial-6-2.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-lg" loading="lazy">
+                  <img src="https://up.iin0.cn/2023/64eb2e33377b6.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-lg" loading="lazy">
                 </a>
               </div>
               <div class="card-body px-0">
                 <h5>
-                  <a href="javascript:;" class="text-dark font-weight-bold">Rover raised $65 million</a>
+                  <a href="https://blog.iin0.cn/views/skill/node/socket_express.html" class="text-dark font-weight-bold">简易socket通信并且引入Express</a>
                 </h5>
                 <p>
-                  Finding temporary housing for your dog should be as easy as
-                  renting an Airbnb. That’s the idea behind Rover ...
+                  利用Express与socket.io结合，实现简易的socket通信，并且实现socket http api
                 </p>
-                <a href="javascript:;" class="text-info text-sm icon-move-right">Read More
+                <a href="https://blog.iin0.cn/views/skill/node/socket_express.html" class="text-info text-sm icon-move-right">Read More
                   <i class="fas fa-arrow-right text-xs ms-1"></i>
                 </a>
               </div>
@@ -551,18 +557,19 @@
             <div class="card card-plain">
               <div class="card-header p-0 position-relative">
                 <a class="d-block blur-shadow-image">
-                  <img src="../assets/img/examples/testimonial-6-3.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-lg" loading="lazy">
+                  <img src="https://api.iin0.cn/img/acc?127863" alt="img-blur-shadow" class="img-fluid shadow border-radius-lg" loading="lazy">
                 </a>
               </div>
               <div class="card-body px-0">
                 <h5>
-                  <a href="javascript:;" class="text-dark font-weight-bold">MateLabs machine learning</a>
+                  <a href="https://blog.iin0.cn/views/myblog/mc/koishiandmc.html" class="text-dark font-weight-bold">使用koishi与mc互通</a>
                 </h5>
                 <p>
-                  If you’ve ever wanted to train a machine learning model
-                  and integrate it with IFTTT, you now can with ...
+                  最近有想法做了个mc服务器spigot插件与koishi的onebot互通的项目<br/>
+                  顺便把这篇博客当作详细文档了<br/>
+                  希望这个项目能给各位提供参考
                 </p>
-                <a href="javascript:;" class="text-info text-sm icon-move-right">Read More
+                <a href="https://blog.iin0.cn/views/myblog/mc/koishiandmc.html" class="text-info text-sm icon-move-right">Read More
                   <i class="fas fa-arrow-right text-xs ms-1"></i>
                 </a>
               </div>
@@ -572,18 +579,18 @@
             <div class="card card-plain">
               <div class="card-header p-0 position-relative">
                 <a class="d-block blur-shadow-image">
-                  <img src="../assets/img/examples/blog-9-4.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-lg" loading="lazy">
+                  <img src="https://up.iin0.cn/2023/645514a4c2569.png" alt="img-blur-shadow" class="img-fluid shadow border-radius-lg" loading="lazy">
                 </a>
               </div>
               <div class="card-body px-0">
                 <h5>
-                  <a href="javascript:;" class="text-dark font-weight-bold">MateLabs machine learning</a>
+                  <a href="https://blog.iin0.cn/views/experience/EDC/2023visual.html" class="text-dark font-weight-bold">2023年全国大学生电子设计大赛E题视觉思路</a>
                 </h5>
                 <p>
-                  If you’ve ever wanted to train a machine learning model
-                  and integrate it with IFTTT, you now can with ...
+                  2023年全国大学生电子设计大赛迎来尾声<br/>
+                  借此蹭个热度，把我的接替思路分享一下......
                 </p>
-                <a href="javascript:;" class="text-info text-sm icon-move-right">Read More
+                <a href="https://blog.iin0.cn/views/experience/EDC/2023visual.html" class="text-info text-sm icon-move-right">Read More
                   <i class="fas fa-arrow-right text-xs ms-1"></i>
                 </a>
               </div>
@@ -591,12 +598,12 @@
           </div>
           <div class="col-lg-3 col-md-12 col-12">
             <div class="card card-blog card-background cursor-pointer">
-              <div class="full-background" style="background-image: url('../assets/img/examples/blog2.jpg')" loading="lazy"></div>
+              <div class="full-background" style="background-image: url('https://api.iin0.cn/img/acc?1355')" loading="lazy"></div>
               <div class="card-body">
                 <div class="content-left text-start my-auto py-4">
-                  <h2 class="card-title text-white">Flexible work hours</h2>
-                  <p class="card-description text-white">Rather than worrying about switching offices every couple years, you stay in the same place.</p>
-                  <a href="javascript:;" class="text-white text-sm icon-move-right">Read More
+                  <h2 class="card-title text-white">php+upyun实现图片随机</h2>
+                  <p class="card-description text-white">之前是通过读取txt文件来实现随机的，但是这样会多一个txt文件需要备份就很难受......</p>
+                  <a href="https://blog.iin0.cn/views/skill/php/up-rdm.html;" class="text-white text-sm icon-move-right">Read More
                     <i class="fas fa-arrow-right text-xs ms-1"></i>
                   </a>
                 </div>
@@ -608,7 +615,7 @@
     </section>
     <!-- END Blogs w/ 4 cards w/ image & text & link -->
   </div>
-  <section class="py-lg-5">
+  <!-- <section class="py-lg-5">
     <div class="container">
       <div class="row">
         <div class="col">
@@ -701,46 +708,46 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- -------- START FOOTER 5 w/ DARK BACKGROUND ------- -->
   <footer class="footer py-5">
     <div class="container z-index-1 position-relative">
       <div class="row">
         <div class="col-lg-4 me-auto mb-lg-0 mb-4 text-lg-start text-center">
-          <h6 class="text-dark font-weight-bolder text-uppercase mb-lg-4 mb-3">Material Design</h6>
+          <h6 class="text-dark font-weight-bolder text-uppercase mb-lg-4 mb-3">暮色音铃Twiyin0</h6>
           <ul class="nav flex-row ms-n3 justify-content-lg-start justify-content-center mb-4 mt-sm-0">
             <li class="nav-item">
               <a class="nav-link text-dark opacity-8" href="https://www.creative-tim.com" target="_blank">
-                Home
+                模板源站
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-dark opacity-8" href="https://www.creative-tim.com/presentation" target="_blank">
-                About
+                关于源站
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-dark opacity-8" href="https://www.creative-tim.com/blog" target="_blank">
-                Blog
+                源站博客
               </a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link text-dark opacity-8" href="https://www.creative-tim.com" target="_blank">
                 Services
               </a>
-            </li>
+            </li> -->
           </ul>
           <p class="text-sm text-dark opacity-8 mb-0">
-            Copyright © <script>
+            Powered by <a href="https://github.com/creativetimofficial/material-kit" target="_blank" >Material Design</a>. Copyright © <script>
               document.write(new Date().getFullYear())
-            </script> Material Design by Creative Tim.
+            </script> Twiyin0.
           </p>
         </div>
         <div class="col-lg-6 ms-auto text-lg-end text-center">
           <p class="mb-5 text-lg text-dark font-weight-bold">
-            The reward for getting on the stage is fame. The price of fame is you can’t get off the stage.
+            生活或许看不到尽头，但这不是停滞的理由<br/>
           </p>
-          <a href="javascript:;" target="_blank" class="text-dark me-xl-4 me-4 opacity-5">
+          <!-- <a href="javascript:;" target="_blank" class="text-dark me-xl-4 me-4 opacity-5">
             <span class="fab fa-dribbble"></span>
           </a>
           <a href="javascript:;" target="_blank" class="text-dark me-xl-4 me-4 opacity-5">
@@ -748,8 +755,8 @@
           </a>
           <a href="javascript:;" target="_blank" class="text-dark me-xl-4 me-4 opacity-5">
             <span class="fab fa-pinterest"></span>
-          </a>
-          <a href="javascript:;" target="_blank" class="text-dark opacity-5">
+          </a> -->
+          <a href="https://github.com/Twiyin0/fixed-Homepage/tree/main" target="_blank" class="text-dark opacity-5">
             <span class="fab fa-github"></span>
           </a>
         </div>
@@ -758,6 +765,16 @@
   </footer>
   <!-- -------- END FOOTER 5 w/ DARK BACKGROUND ------- -->
   <!--   Core JS Files   -->
+  <script>
+    new Vue({
+        el: '#vuebtn',
+        methods: {
+            goToBlog() {
+                window.location.href = 'https://blog.iin0.cn';
+            }
+        }
+    });
+</script>
   <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
   <script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
   <script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
