@@ -1,30 +1,51 @@
 {
-  "name": "vlssu-minecraft-public-service",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build",
-    "lint": "vue-cli-service lint"
+  "name": "material-kit",
+  "version": "3.0.4",
+  "description": "Freebie UI Kit for Bootstrap 5",
+  "main": "index.html",
+  "directories": {
+    "example": "root"
   },
-  "dependencies": {
-    "bootstrap-vue": "^2.0.4",
-    "flatpickr": "^4.5.1",
-    "nouislider": "^11.1.0",
-    "register-service-worker": "^1.5.2",
-    "sass": "^1.77.7",
-    "vue": "2.7.0",
-    "vue-flatpickr-component": "^8.1.1",
-    "vue-lazyload": "^1.2.6",
-    "vue-router": "^3.0.2",
-    "vue2-transitions": "^0.2.3"
+  "scripts": {
+    "open-app": "gulp open-app",
+    "start": "npm run open-app",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "gulp-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creativetimofficial/material-kit.git"
+  },
+  "keywords": [
+    "material kit 2",
+    "bootstrap 5",
+    "design system",
+    "ui kit",
+    "creative tim",
+    "html kit",
+    "html css kit",
+    "web kit",
+    "freebie",
+    "free bootstrap kit",
+    "css3 kit",
+    "bootstrap design system",
+    "frontend",
+    "responsive bootstrap kit"
+  ],
+  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creativetimofficial/material-kit/issues"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.4.0",
-    "@vue/cli-plugin-eslint": "^3.4.0",
-    "@vue/cli-plugin-pwa": "^3.4.0",
-    "@vue/cli-service": "^3.4.0",
-    "sass-loader": "7.1.0",
-    "vue-template-compiler": "2.6.6"
-  }
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-install": "^1.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-open": "^3.0.1",
+    "sass": "^1.49.9"
+  },
+  "homepage": "https://creative-tim.com/product/material-kit"
 }

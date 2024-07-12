@@ -1,51 +1,35 @@
-# Vue homePage
-一个基于[Vue Argon](https://www.creative-tim.com/product/vue-argon-design-system) 设计的个人主页
+# Vue-Homepage
+之前本来是VueHomePage的，但是之前那个项目依赖美酒了，所以就换了，目前应该叫Bootstrap5HomePage了  
+项目改自[creative-tim@material-kit](https://github.com/creativetimofficial/material-kit)请多支持原作者
 
-## 先决条件
-[nodejs](https://nodejs.org/)  
-需要node v14.19以下，sass^4.11.0不支持node v14.19以上版本  
-推荐使用`yarn`包管理器
+# 安装与部署
 
-## 快速开始
-如果您没有yarn包管理器
-可以使用以下代码安装
-```sh
-npm install yarn -g
+## 前提条件
+* 需要[git](https://git-scm.com/)(测试版本2.42.0)
+* 需要[nodejs](https://nodejs.org)(测试时用的node 20.10.0)
+* 需要npm(测试版本10.2.3)或者yarn(测试版本1.22.21)
+
+## 安装依赖
+使用yarn(推荐)
+```bash
+yarn # or yarn install
+```
+使用npm
+```bash
+npm install # or npm i
 ```
 
-### 补全依赖
-yarn  
-```sh
-yarn
-```  
-
-npm  
-```sh
-npm i
+## 运行项目
+使用yarn
+```bash
+yarn start # or yarn run start
+```
+使用npm
+```bash
+npm run start # or npm start
 ```
 
-### 启动服务
-yarn
-```sh
-yarn serve
-```
-
-npm
-```sh
-npm run serve
-```
-
-### 编译成静态文件
-yarn
-```sh
-yarn build
-```
-
-npm
-```sh
-npm run build
-```
-
-* >> 编译后的文件在/dist目录
-
-## 开源协议: [MIT](https://github.com/Twiyin0/Vue-homePage/blob/main/LICENSE)
+## 部署项目至服务器
+* 将本项目copy网站服务器根目录
+* 根目录index.html为网站首页
+* 网站运行目录在根目录index.html所在路径
