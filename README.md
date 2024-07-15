@@ -1,6 +1,6 @@
 # Vue-Homepage
 之前本来是VueHomePage的，但是之前那个项目依赖美酒了，所以就换了，目前应该叫Bootstrap5HomePage了  
-项目改自[creative-tim@material-kit](https://github.com/creativetimofficial/material-kit)请多支持原作者
+项目改自[material-kit@creative-tim](https://github.com/creativetimofficial/material-kit)请多支持原作者
 
 # 安装与部署
 
